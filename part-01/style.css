@@ -2,9 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: gilroy;
 }
 html,
 body{
     height: 100%;
     width: 100%;
+    background-color: #111;
+}
+
+#box1{
+   height: 200px;
+   width: 200px;
+   background-color: crimson;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+ }
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+ }
+hr{
+    border:2px solid gold;
+    margin:10px 0;
+}
+h2{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+h1{
+    color:white;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color: yellowgreen;
+    padding: 20px 50px;
+}
+#nav ul{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+#nav ul li{
+    font-size: 18px;
+    font-weight: 600;
 }
