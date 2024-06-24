@@ -1,0 +1,117 @@
+Animation Platform:
+
+1. locomotive js
+2. React JS
+3. Swiper JS
+4. GSAP
+5. Three.js
+
+What is GSAP?
+Learn Basics
+Apply GSAP
+Box animation
+Text Animations  [ gsap.to(), gsap.from() ]
+Stagger
+Repeat Animation/ yoyo
+GSAP Timelines
+How to apply Timeline
+Navbar Animation
+
+
+
+gsap.to("#box1",{
+    x:1200,
+    duration:4,
+    delay:1,
+    rotate:360,
+    yoyo:true,
+    repeat:-1
+})
+gsap.from("#box2",{
+    x:1200,
+    duration:4,
+    delay:1,
+    rotate:360,
+    yoyo:true,
+    repeat:-1
+
+})
+
+gsap.to("#box1",{
+    x:1200,
+    duration:4,
+    delay:1,
+    rotate:360,
+    yoyo:true,
+    repeat:-1,
+    backgroundColor:"blue",
+})
+gsap.from("#box2",{
+    x:1200,
+    duration:4,
+    delay:1,
+    // rotate:360,
+    yoyo:true,
+    repeat:-1,
+    borderRadius:"10%",
+
+})
+
+// repeat:1, How many time animation run,
+// yoyo:true, initial state - final state and final to initial state animation runing.
+// duration:2, performing time of animation,
+// delay: 1, when start animation,
+// x: 1000, x axis and y: y-axis
+// y: 200;
+// x: -1000,
+// y: -1000,
+// stagger:1,  this is show text step by step
+// opacity:0, // do it transparant zero / display none
+// scale: 2, // do it zoom in and zoom out
+
+
+** why we use timeline 
+gsap.to("#box1",{
+    duration: 1,
+    x: 1100,
+    
+})
+gsap.to("#box2",{
+    duration: 1,
+    x: 1100,
+    delay:1,
+    
+})
+gsap.to("#box3",{
+    duration: 1,
+    x: 1100,
+    delay:3,
+    
+})
+
+--------------- Recommended method:
+const tl = gsap.timeline();
+
+tl.to("#box1", {
+    duration:1,
+    x:1100,
+    rotate:360,
+    borderRadius:"50%",
+    scale: 1.2,
+})
+
+tl.to("#box2", {
+    duration:1,
+    x:1100,
+    rotate:360,
+    borderRadius:"30%",
+    scale: 0.9,
+})
+
+tl.to("#box3", {
+    duration:1,
+    x:1100,
+    rotate:360,
+    borderRadius:"10%",
+    scale: 1.3,
+})
