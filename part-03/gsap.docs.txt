@@ -7,3 +7,14 @@ Quadratic curve:
 point 01, = M 10 80 ( x y)
 point 02, = Q 95 10 ( x1 y1 )
 point 03, = Q 180 80 ( x y)
+
+
+Wroking Procedure :
+1. make a svg curve [ search on google : svg path curve]
+2. understanding how path point works
+3. create inital path and final path
+4. pickup the svg element using js dom
+5. create addEventListener() for mousemove and mouseleave
+6.  change the path value
+7. add gsap to animate this path
+
