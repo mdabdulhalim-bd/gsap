@@ -1,0 +1,9 @@
+M= Move to parent position
+
+M 100 120 = x-axis y-axis
+
+Quadratic curve:
+
+point 01, = M 10 80 ( x y)
+point 02, = Q 95 10 ( x1 y1 )
+point 03, = Q 180 80 ( x y)
