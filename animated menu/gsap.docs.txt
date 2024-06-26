@@ -2,6 +2,9 @@
 2. set background image
 remixicon.com
 
- // remix icon cdn:
+// background image
+https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+// remix icon cdn:
  
 link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />

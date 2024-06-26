@@ -9,62 +9,68 @@ body{
     width: 100%;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden;   
 }
 
-#navbar{
-    padding: 20px 50px;
-    background: lightblue;
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#fff;
 }
-#main-menu{
+
+#nav{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 10px 50px;
+    /* background-color: red; */
+    font-family:'Trebuchet MS';
+    position: fixed;
 
 }
-.menu i{
-    font-size: 30px;
+.icon-bar i{
+    font-size: 24px;
     font-weight: 600;
     cursor: pointer;
 }
+
 #side-menu{
-    display: flex;
-    justify-content: space-between;
-    width:20%;
-    height: 100vh;
-    background-color: lightgreen;
+    width:40%;
+    height: 100%;
     position: absolute;
     top:0;
-    right:0;
-    padding: 20px 20px;
-    
+    right: -40%;
+    background-color: rgb(99, 93, 93, 0.2);
+    backdrop-filter: blur(20px);
+    padding: 100px 50px;
+    font-family: 'Trebuchet MS';
 }
-#side-menu ul{
-    list-style:none;
-}
-
-#side-menu ul li a{
-    display: block;
-    padding: 10px 0px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 24px;
-    color:black
-
-}
-.close-icon i{
+#side-menu h4{
     font-size: 30px;
-    font-weight:600;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#side-menu i{
+    width:30px;
+    height: 30px;
+    font-size: 24px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: white;
     border-radius: 50%;
-    padding: 5px;
+    color:crimson;
+    position:absolute;
+    top:10%;
+    right:5%;
     cursor: pointer;
 
 }
-
-@media screen and (max-width: 500px) {
-    #side-menu{
-        width:100%;
-        top:0;
-        right:-100%;
-    }
-  }
