@@ -1,4 +1,3 @@
-
 let overlay = document.querySelector("#overlay");
 let cursor = document.querySelector("#cursor");
 

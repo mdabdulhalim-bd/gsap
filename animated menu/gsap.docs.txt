@@ -1,0 +1,7 @@
+1. create #main div
+2. set background image
+remixicon.com
+
+ // remix icon cdn:
+ 
+link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
